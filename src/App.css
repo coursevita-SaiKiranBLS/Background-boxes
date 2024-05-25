@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  width: 35px;
+  height: 20px;
+  box-shadow: 0 0 0 0.1px #555; 
+  position: relative;
+}
+
+.box:hover {
+  transition: background-color 0s;
+}
+
+.box.animate {
+  transition: background-color 1s;
+}
+
+.hovered {
+  background-color: var(--hover-color); /* You can define this color in your CSS */
+}
